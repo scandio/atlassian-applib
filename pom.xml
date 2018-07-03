@@ -61,4 +61,24 @@
         </plugins>
     </build>
 
+    <scm>
+        <url>https://github.com/scandio/atlassian-applib</url>
+        <connection>scm:git:git@github.com/scandio/atlassian-applib.git</connection>
+        <developerConnection>scm:git:git@github.com/scandio/atlassian-applib.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>scandio-public-releases</id>
+            <name>Scandio Public Releases Repository</name>
+            <url>${scandio.public.repository}/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>scandio-public-snapshots</id>
+            <name>Scandio Public Snapshots Repository</name>
+            <url>${scandio.public.repository}/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
