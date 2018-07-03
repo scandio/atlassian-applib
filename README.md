@@ -23,7 +23,7 @@ _Confluence:_
 
 Loads the DateFormatter for a given user.
 
-     <component key="formatter-service" name="Formatter service"
+     <component key="formatter-service" name="Formatter Service"
                 class="de.scandio.atlassian.applib.services.confluence.impl.FormatterServiceImpl">
          <interface>de.scandio.atlassian.applib.services.confluence.FormatterService</interface>
      </component>
@@ -32,9 +32,18 @@ Loads the DateFormatter for a given user.
 
 Loads the I18nBean object for a given user.
 
-    <component key="i18n-bean-service" name="I18n bean service"
+    <component key="i18n-bean-service" name="I18n Bean Service"
                class="de.scandio.atlassian.applib.services.confluence.impl.I18nBeanServiceImpl">
         <interface>de.scandio.atlassian.applib.services.confluence.I18nBeanService</interface>
+    </component>
+    
+### PageFinderService    
+
+Finds pages with a specific macro and/or with a specific parameter and value.
+    
+    <component key="page-finder-service" name="Page Finder Service"
+               class="de.scandio.atlassian.applib.services.confluence.impl.PageFinderServiceImpl">
+        <interface>de.scandio.atlassian.applib.services.confluence.PageFinderService</interface>
     </component>
   
     
