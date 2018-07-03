@@ -4,13 +4,28 @@ Library that makes developing Atlassian apps easier.
 
 ## Usage
 
-Add the atlassian-applib to your `pom.xml`.
+Add the atlassian-applib dependency to your `pom.xml`.
 
     <dependency>
         <groupId>de.scandio</groupId>
         <artifactId>atlassian-applib</artifactId>
         <version>0.2.0</version>
     </dependency>
+    
+Add the Scandio Maven repository to your `pom.xml`.
+
+    <repositories>
+        <repository>
+            <id>scandio-public-releases</id>
+            <name>Scandio Public Releases Repository</name>
+            <url>https://github.com/scandio/mvn-repo/raw/master/releases</url>
+        </repository>
+        <repository>
+            <id>scandio-public-snapshots</id>
+            <name>Scandio Public Snapshots Repository</name>
+            <url>https://github.com/scandio/mvn-repo/raw/master/snapshots</url>
+        </repository>
+    </repositories>
 
 
 ## Services
