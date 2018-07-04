@@ -60,6 +60,15 @@ Finds pages with a specific macro and/or with a specific parameter and value.
                class="de.scandio.atlassian.applib.services.confluence.impl.PageFinderServiceImpl">
         <interface>de.scandio.atlassian.applib.services.confluence.PageFinderService</interface>
     </component>
+    
+### RenderService    
+
+Renders XHTML to HTML.
+    
+    <component key="render-service" name="Render Service"
+               class="de.scandio.atlassian.applib.services.confluence.impl.RenderServiceImpl">
+        <interface>de.scandio.atlassian.applib.services.confluence.RenderService</interface>
+    </component>
   
     
 ## Utils
