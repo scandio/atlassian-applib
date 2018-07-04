@@ -9,7 +9,7 @@ Add the atlassian-applib dependency to your `pom.xml`.
     <dependency>
         <groupId>de.scandio</groupId>
         <artifactId>atlassian-applib</artifactId>
-        <version>0.2.0</version>
+        <version>0.3.0</version>
     </dependency>
     
 Add the Scandio Maven repository to your `pom.xml`.
