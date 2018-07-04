@@ -74,12 +74,12 @@ Renders XHTML to HTML.
 ## Utils
 
 - CommaUtils - Joins and splits comma separated lists.
-- JsoupUtils - Parses and serializes XHTML with Jsoup.
 - VersionUtils - Compares versions.
 
 _Confluence:_
 
 - CurrentSpaceUtils - Gets the current space.
+- JsoupUtils - Parses and serializes XHTML with Jsoup.
 
 
 ## Conditions
