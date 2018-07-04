@@ -1,4 +1,4 @@
-package de.scandio.atlassian.applib.utils;
+package de.scandio.atlassian.applib.utils.confluence;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,13 +10,13 @@ import org.springframework.web.util.HtmlUtils;
  */
 public class JsoupUtils {
 
-    public static Document parse(String xhtml) {
+    public static Document parseXhtml(String xhtml) {
         Document document = Jsoup.parse(xhtml, "", Parser.xmlParser());
         document.outputSettings(new Document.OutputSettings().prettyPrint(false));
         return document;
     }
 
-    public static String serialize(Document document) {
+    public static String serializeXhtml(Document document) {
         return restoreCDATA(
                 restoreCDATA(document.html(),
                 "ac:plain-text-body"),
