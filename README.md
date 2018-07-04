@@ -78,6 +78,7 @@ Renders XHTML to HTML.
 
 _Confluence:_
 
+- ContextUtils - Gets stuff from the conversion context.
 - CurrentSpaceUtils - Gets the current space.
 - JsoupUtils - Parses and serializes XHTML with Jsoup.
 
