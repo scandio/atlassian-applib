@@ -9,7 +9,7 @@ Add the atlassian-applib dependency to your `pom.xml`.
     <dependency>
         <groupId>de.scandio</groupId>
         <artifactId>atlassian-applib</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0</version>
     </dependency>
     
 Add the Scandio Maven repository to your `pom.xml`.
@@ -70,6 +70,9 @@ Renders XHTML to HTML.
         <interface>de.scandio.atlassian.applib.services.confluence.RenderService</interface>
     </component>
   
+## Macros
+
+- HybridMacro - By extending this class, a macro can added as both an old `macro` module and a `xhtml-macro` module.
     
 ## Utils
 
