@@ -72,6 +72,8 @@ Renders XHTML to HTML.
   
 ## Macros
 
+_Confluence:_
+
 - HybridMacro - By extending this class, a macro can added as both an old `macro` module and a `xhtml-macro` module.
     
 ## Utils
